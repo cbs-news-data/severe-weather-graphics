@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chart>
+  <title>Tornado reports Jan 1 - April 29</title>
+  <subtitle>Five-year average</subtitle>
+  <type>bar</type>
+  <x-axis>1971-1975|1976-1980|1981-1985|1986-1990|1991-1995|1996-2000|2001-2005|2006-2010|2011-2015|2016-2020|2021-2025</x-axis>
+  <y-axis> </y-axis>
+  <y-max>497.2</y-max>
+  <dataPoint>
+    <label>1971-1975</label>
+    <value>267.8</value>
+  </dataPoint>
+  <dataPoint>
+    <label>1976-1980</label>
+    <value>213.2</value>
+  </dataPoint>
+  <dataPoint>
+    <label>1981-1985</label>
+    <value>206</value>
+  </dataPoint>
+  <dataPoint>
+    <label>1986-1990</label>
+    <value>160.8</value>
+  </dataPoint>
+  <dataPoint>
+    <label>1991-1995</label>
+    <value>247.2</value>
+  </dataPoint>
+  <dataPoint>
+    <label>1996-2000</label>
+    <value>342.4</value>
+  </dataPoint>
+  <dataPoint>
+    <label>2001-2005</label>
+    <value>203.4</value>
+  </dataPoint>
+  <dataPoint>
+    <label>2006-2010</label>
+    <value>414.2</value>
+  </dataPoint>
+  <dataPoint>
+    <label>2011-2015</label>
+    <value>392.8</value>
+  </dataPoint>
+  <dataPoint>
+    <label>2016-2020</label>
+    <value>404</value>
+  </dataPoint>
+  <dataPoint>
+    <label>2021-2025</label>
+    <value>497.2</value>
+  </dataPoint>
+  <source>NOAA/National Weather Service</source>
+  <date> </date>
+  <qualifier>2024 and 2025 data is provisional</qualifier>
+</chart>
