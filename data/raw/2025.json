@@ -1,7 +1,7 @@
 {
-    "hail": 1665,
-    "wind": 4250,
-    "torn": 682,
+    "hail": 1709,
+    "wind": 4316,
+    "torn": 689,
     "daily": {
         "0101": {
             "torn": 0,
@@ -574,7 +574,7 @@
             "hail": 54
         },
         "0425": {
-            "torn": 7,
+            "torn": 8,
             "wind": 18,
             "hail": 32
         },
@@ -589,14 +589,19 @@
             "hail": 28
         },
         "0428": {
-            "torn": 10,
+            "torn": 11,
             "wind": 43,
-            "hail": 86
+            "hail": 87
         },
         "0429": {
-            "torn": 4,
-            "wind": 297,
+            "torn": 5,
+            "wind": 310,
             "hail": 45
+        },
+        "0430": {
+            "torn": 4,
+            "wind": 53,
+            "hail": 43
         }
     },
     "month": {
@@ -616,14 +621,14 @@
             "hail": 643
         },
         "4": {
-            "torn": 321,
-            "wind": 1720,
-            "hail": 987
+            "torn": 327,
+            "wind": 1777,
+            "hail": 1015
         },
         "5": {
-            "torn": 0,
-            "wind": 0,
-            "hail": 0
+            "torn": 1,
+            "wind": 9,
+            "hail": 16
         },
         "6": {
             "torn": 0,
@@ -664,23 +669,23 @@
     "hour": [
         {
             "torn": 67,
-            "wind": 257,
-            "hail": 196
+            "wind": 260,
+            "hail": 202
         },
         {
-            "torn": 86,
-            "wind": 261,
-            "hail": 147
+            "torn": 87,
+            "wind": 264,
+            "hail": 154
         },
         {
             "torn": 51,
-            "wind": 198,
-            "hail": 98
+            "wind": 200,
+            "hail": 100
         },
         {
             "torn": 36,
-            "wind": 188,
-            "hail": 87
+            "wind": 190,
+            "hail": 88
         },
         {
             "torn": 38,
@@ -729,78 +734,78 @@
         },
         {
             "torn": 9,
-            "wind": 95,
+            "wind": 97,
             "hail": 18
         },
         {
             "torn": 7,
-            "wind": 85,
+            "wind": 92,
             "hail": 11
         },
         {
             "torn": 14,
-            "wind": 101,
+            "wind": 105,
             "hail": 18
         },
         {
             "torn": 8,
-            "wind": 143,
+            "wind": 146,
             "hail": 12
         },
         {
-            "torn": 20,
-            "wind": 120,
+            "torn": 21,
+            "wind": 121,
             "hail": 17
         },
         {
             "torn": 20,
             "wind": 136,
-            "hail": 22
+            "hail": 23
         },
         {
             "torn": 22,
-            "wind": 205,
+            "wind": 210,
             "hail": 62
         },
         {
-            "torn": 29,
-            "wind": 265,
-            "hail": 80
+            "torn": 30,
+            "wind": 269,
+            "hail": 81
         },
         {
-            "torn": 53,
-            "wind": 306,
-            "hail": 118
+            "torn": 55,
+            "wind": 321,
+            "hail": 120
         },
         {
-            "torn": 41,
-            "wind": 283,
-            "hail": 165
+            "torn": 43,
+            "wind": 292,
+            "hail": 178
         },
         {
             "torn": 52,
-            "wind": 257,
-            "hail": 215
+            "wind": 263,
+            "hail": 226
         }
     ],
     "state": {
         "AR": {
-            "wind": 91,
+            "wind": 119,
             "hail": 86,
-            "torn": 41
+            "torn": 42
         },
         "TX": {
-            "wind": 290,
-            "hail": 339,
-            "torn": 66
+            "wind": 308,
+            "hail": 366,
+            "torn": 69
         },
         "LA": {
-            "wind": 124,
+            "wind": 125,
             "hail": 42,
             "torn": 22
         },
         "MS": {
-            "wind": 229,
+            "wind": 230,
             "hail": 67,
             "torn": 96
         },
@@ -820,7 +825,7 @@
             "torn": 5
         },
         "NC": {
-            "wind": 167,
+            "wind": 170,
             "hail": 19,
             "torn": 3
         },
@@ -830,12 +835,12 @@
             "torn": 4
         },
         "WV": {
-            "wind": 226,
+            "wind": 227,
             "hail": 26
         },
         "KY": {
             "wind": 198,
-            "hail": 54,
+            "hail": 61,
             "torn": 31
         },
         "WI": {
@@ -869,7 +874,7 @@
             "wind": 7
         },
         "CO": {
-            "wind": 4,
+            "wind": 5,
             "hail": 17,
             "torn": 2
         },
@@ -884,7 +889,7 @@
             "torn": 11
         },
         "OK": {
-            "wind": 94,
+            "wind": 96,
             "hail": 107,
             "torn": 22
         },
@@ -904,18 +909,18 @@
         },
         "IL": {
             "wind": 259,
-            "hail": 65,
-            "torn": 78
+            "hail": 69,
+            "torn": 79
         },
         "MO": {
-            "wind": 247,
-            "hail": 139,
-            "torn": 72
+            "wind": 255,
+            "hail": 140,
+            "torn": 73
         },
         "MN": {
             "wind": 9,
             "hail": 28,
-            "torn": 2
+            "torn": 3
         },
         "SD": {
             "wind": 10,
@@ -923,8 +928,8 @@
             "torn": 1
         },
         "IN": {
-            "wind": 281,
-            "hail": 46,
+            "wind": 282,
+            "hail": 51,
             "torn": 44
         },
         "OH": {
@@ -933,7 +938,7 @@
             "torn": 15
         },
         "PA": {
-            "wind": 198,
+            "wind": 200,
             "hail": 17,
             "torn": 8
         },

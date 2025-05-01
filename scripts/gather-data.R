@@ -100,7 +100,7 @@ storm_data_by_5yr_all <- storm_data_clean_all %>%
             hail = sum(hail)/5)
   
 
-storm_data_by_5yr_all_plot <- ggplot(story_data_by_5yr_all, aes(x = year_group, y = torn)) +
+storm_data_by_5yr_all_plot <- ggplot(storm_data_by_5yr_all, aes(x = year_group, y = torn)) +
   geom_bar(stat = "identity")
 storm_data_by_5yr_all_plot
 
@@ -143,7 +143,10 @@ max_date_pretty <- str_replace(max_date_pretty, " 0", "")
 tornado_data_by_5yr_current <- storm_data_by_5yr_current %>% 
   select(year_group, torn) %>% 
   rename(label = year_group,
-         value = torn)
+         value = torn) %>% 
+  mutate(showLabel = 1) %>% 
+  mutate(showValue = 1) %>% 
+  mutate(valueToShow = paste0(round(as.numeric(value), digits=0)))
 
 #get labels for x axis
 years <- as.character(tornado_data_by_5yr_current$label)
@@ -159,7 +162,7 @@ value_max <- max(tornado_data_by_5yr_current$value)
 xml_title <- paste0("Tornado reports Jan 1 - ", max_date_pretty)
 xml_subtitle <- "Five-year average"
 xml_xaxis <- torn_labels #labels for x axis, only fill out in necessary
-xml_yaxis <- " " #labels for x axis, only fill out in necessary
+xml_yaxis <- " " #labels for y axis, only fill out in necessary
 xml_ymax <-  value_max #float value for max value
 xml_source <- "NOAA/National Weather Service"
 xml_date <- " "
